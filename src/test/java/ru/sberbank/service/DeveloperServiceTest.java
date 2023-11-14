@@ -26,7 +26,7 @@ class DeveloperServiceTest {
 
     @ParameterizedTest
     @NullAndEmptySource
-    void createDeveloperTest_exception_when_firstName_is_null_or_empty(String input) {
+    void createDeveloperTest_exception_when_secondName_is_null_or_empty(String input) {
         DeveloperService ds = new DeveloperService();
         var secondName = "Samsonova";
 
@@ -39,7 +39,7 @@ class DeveloperServiceTest {
 
     @ParameterizedTest
     @NullAndEmptySource
-    void createDeveloperTest_exception_when_secondName_is_null_or_empty(String input) {
+    void createDeveloperTest_exception_when_firstName_is_null_or_empty(String input) {
         DeveloperService ds = new DeveloperService();
         var firstName = "Angela";
 
